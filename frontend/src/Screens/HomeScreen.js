@@ -8,7 +8,7 @@ const HomeScreen = () => {
             {data.products.map((product) => (
                 <li>
                     <div className='product'>
-                        <Link to={`/product/${product._id}`}>
+                        <Link to={`/products/${product._id}`}>
                             <img
                                 className='product-image'
                                 src={product.image}
