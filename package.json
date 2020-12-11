@@ -1,0 +1,29 @@
+{
+    "name": "nozama",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "dependencies": {
+        "@babel/cli": "^7.12.10",
+        "@babel/core": "^7.12.10",
+        "@babel/node": "^7.12.10",
+        "@babel/preset-env": "^7.12.10",
+        "express": "^4.17.1",
+        "nodemon": "^2.0.6",
+        "react-router-dom": "^5.2.0"
+    },
+    "devDependencies": {},
+    "scripts": {
+        "start": "nodemon --watch backend --exec babel-node backend/server.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/liamcox/Nozama.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/liamcox/Nozama/issues"
+    },
+    "homepage": "https://github.com/liamcox/Nozama#readme"
+}

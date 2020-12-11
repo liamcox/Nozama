@@ -46,7 +46,7 @@ function App() {
                     <div className='content'>
                         <Route
                             exact
-                            path='/product/:id'
+                            path='/products/:id'
                             component={ProductScreen}
                         />
                         <Route exact path='/' component={HomeScreen} />
